@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compstible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Link Shortener</title>
+        <link rel="stylesheet" href="style.css">    
+    </head>
+    <body>
+        <div class="container">
+            <h1>URL Shortener</h1>
+            <label for="url">Enter URL for Shorten:</label>
+            <input type="text" id="long-url" placeholder="https://www.example.com/long-url">
+            <button id="shorten-btn">Shorten</button>
+            <div id="short-url-container">
+            <p>Short URL:</p>
+            <p id="short-url"><a href=""></a></p>
+            </div>
+            <div id="copy-btn-container">
+            <button id="copy-btn">Copy</button>
+            </div>
+        </div>
+    </body>
+    <script src="script.js"></script>
+</html>
